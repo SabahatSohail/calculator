@@ -1,0 +1,4 @@
+#maindiv{text-align: center; background-color: gainsboro; margin: 0px 400px; height: 400px; width: 400px; padding: 50px;}
+#heading {background-color: blue; color: white;  text-align: center; margin: 20px 400px 0px 400px; height: 60px; width: 400px; padding: 1px 50px 0px 50px;}
+#numbers{margin: 10px 5px; height: 40px; width: 40px; border-radius: 30px; background-color:blue; color: white;}
+#input{ height: 30px; width: 200px; margin-bottom: 30px;}

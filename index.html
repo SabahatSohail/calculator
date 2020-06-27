@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="heading">
+        <h2> Calculator </h2>
+    </div>
+
+    <div id="maindiv">
+    
+    <div>
+        <input id="input" type="text">
+    </div>
+    <div>
+        <button id="numbers" onclick="clearresult()"> C </button>
+        <button id="numbers" onclick="getNumber('/')"> / </button>
+        <button id="numbers" onclick="getNumber('*')"> X </button>
+        <button id="numbers" onclick="square('')"> X <sup> 2 </sup> </button>
+        
+    </div>
+
+    <div>
+        <button id="numbers" onclick="getNumber('7')"> 7 </button>
+        <button id="numbers" onclick="getNumber('8')"> 8 </button>
+        <button id="numbers" onclick="getNumber('9')"> 9 </button>
+        <button id="numbers" onclick="clr()"> <i class="fa fa-arrow-circle-left" aria-hidden="true"></i> </button>
+
+    </div>
+
+    <div>
+        <button id="numbers" onclick="getNumber('4')"> 4 </button>
+        <button id="numbers" onclick="getNumber('5')"> 5 </button>
+        <button id="numbers" onclick="getNumber('6')"> 6 </button>
+        <button id="numbers" onclick="getNumber('-')"> - </button>
+
+    </div>
+
+    <div>
+        <button id="numbers" onclick="getNumber('1')"> 1 </button>
+        <button id="numbers" onclick="getNumber('2')"> 2 </button>
+        <button id="numbers" onclick="getNumber('3')"> 3 </button>
+        <button id="numbers" onclick="getNumber('+')"> + </button>
+
+    </div>
+
+    <div>
+        <button id="numbers" onclick="percentage('')"> % </button>
+        <button id="numbers" onclick="getNumber('0')"> 0 </button>
+        <button id="numbers" onclick="getNumber('.')"> . </button>
+        <button id="numbers" onclick="calculation()"> = </button>
+
+    </div>
+
+
+
+
+
+</div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
